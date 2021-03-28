@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2021_03_27_235545) do
   create_table "products", force: :cascade do |t|
     t.string "name"
     t.float "value"
-    t.string "restaurant"
+    t.integer "restaurant_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
