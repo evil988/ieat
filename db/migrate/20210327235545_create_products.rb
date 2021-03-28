@@ -3,7 +3,7 @@ class CreateProducts < ActiveRecord::Migration[6.1]
     create_table :products do |t|
       t.string :name
       t.float :value
-      t.string :restaurant
+      t.integer :restaurant_id
 
       t.timestamps
     end
